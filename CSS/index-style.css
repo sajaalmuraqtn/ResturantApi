@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+
+}
+
+.clr{
+    clear:both;
+    height: 20px;
+}
+.container{
+    margin: auto;
+    width: 80%;
+} 
+.header{
+    background-image: url(../image/headerBackground.jpg);
+    height: 100vh;
+    background-size: 240vh 100vh;
+    background-repeat: no-repeat;
+    color: white;
+    overflow: hidden;
+    
+}
+.logo{
+    float: left;
+}
+.logo img{
+    width: 150px;  
+}
+
+.navbar{
+    width: 80%;
+    position: fixed;
+}
+.links{
+ float: right;
+}
+.links li{
+  float: left; 
+}
+.links li a.active{
+    color: rgb(255, 255, 255);
+}
+.links li a{
+color: white;
+}
+
+
+
+h1{
+    font-size: 76px;
+}
+.header-content{
+    text-align: center;
+    margin-top: 100px;
+}
+.header a{
+text-decoration: none;
+padding: 20px 30px;
+margin-top: 20px;
+display: inline-block;
+font-weight: 900;
+border-radius: 10px;
+border: none;
+}
+.header p{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+.btn-learn{
+    background-color: #c1ab84;
+    color: white;
+}
+.btn-book{
+    background-color: white;
+    color: black;
+}
+
+
+ul{
+    list-style: none;
+}
+.about{
+padding: 50px 0;
+}
+
+.img-about {
+float: left;
+width: 50%;
+}
+.img-about> img {
+    width: 80%;
+}
+.info-about {
+ float: left;
+ width: 50%;
+}
+.info-about  h2{
+    margin-bottom: 30px;
+    font-size: 36px;
+    color: rgb(73, 48, 72);    
+}
+.info-about  h3{
+    font-family: 'Dancing Script', cursive;
+    color: rgb(193, 171, 132);
+    font-size: 28px;    
+}
+.info-about  p{
+    margin-top:25px ;   
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    color: #686868;
+    margin-bottom: 25px;
+
+}
+.info-about ul li i{
+  background-color: #c1ab84;
+  color: white;
+  padding: 15px;
+  border-radius: 50%;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+
+
+
+
+.menu{
+    text-align: center;
+}
+.container h2{
+margin-bottom: 20px;
+
+}
+.container p{
+ margin-bottom: 20px;
+ width: 80%;
+ margin: auto;
+ line-height: 30px;
+}
+.item{
+float: left;
+width: 33.33%;
+box-sizing: border-box;
+margin-bottom: 10px;
+}
+@media screen and (min-width:200px) and (max-width:1000px) {
+    .header{
+        background-size:900px 1100px;
+    }
+    
+}
+.item img{
+width: 90%;
+}
+.item h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.test{
+    background-image: url(../image/cover\ background.jpg);
+    background-attachment: fixed;
+    padding: 227px;
+}
