@@ -30,7 +30,7 @@ h6 {
 
 .header {
     background-image: url(../image/headerBackground.jpg);
-    height: 100vh;
+    height: 50vh;
     background-size: cover;
     color: white;
     overflow: hidden;
@@ -70,7 +70,7 @@ h6 {
 
 
 h1 {
-    font-size: 76px;
+    font-size:50px;
 }
 
 .header-content {
@@ -78,95 +78,14 @@ h1 {
     margin-top: 100px;
 }
 
-.header a {
-    text-decoration: none;
-    padding: 20px 30px;
-    margin-top: 20px;
-    display: inline-block;
-    font-weight: 900;
-    border-radius: 10px;
-    border: none;
+.header-content img {
+  width: 250px;
 }
 
-.header p {
-    font-family: 'Dancing Script', cursive;
-    font-size: 40px;
-}
-
-.btn-learn {
-    background-color: #c1ab84;
-    color: white;
-}
-
-.btn-book {
-    background-color: white;
-    color: black;
-}
-
-
-ul {
-    list-style: none;
-}
-
-.about {
-    padding: 80 0 ;
-}
-
-.img-about {
-    float: left;
-    width: 50%;
-}
-
-.img-about>img {
-    width: 80%;
-}
-
-.info-about {
-    float: left;
-    width: 50%;
-}
-
-.info-about h2 {
-    margin-bottom: 30px;
-    font-size: 36px;
-    color: rgb(73, 48, 72);
-}
-
-.info-about h3 {
-    font-family: 'Dancing Script', cursive;
-    color: rgb(193, 171, 132);
-    font-size: 28px;
-}
-
-.info-about p {
-    margin-top: 25px;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 33px;
-    color: #686868;
-    margin-bottom: 25px;
-
-}
-
-.info-about ul li i {
-    background-color: #c1ab84;
-    color: white;
-    padding: 15px;
-    border-radius: 50%;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    font-size: 20px;
-    transition: 0.5s;
-    border:#c1ab84 solid 1px ;
- }
-
-.info-about ul li i:hover {
-    color: #c1ab84;
-    background: none;
-    transform: rotate(365deg) ;
-}
-
+ 
+ 
 .menu {
+    padding-top: 30px;
     text-align: center;
 }
 
@@ -185,15 +104,10 @@ ul {
 .item {
     float: left;
     width: 30%;
+    box-sizing: border-box;
     margin-bottom: 20px;
     cursor: pointer;
     margin: 10px;
-}
-
-.item .inner {
-
-    margin-bottom: 20px;
-    overflow: hidden;
 }
 
 @media screen and (min-width:200px) and (max-width:1000px) {
@@ -206,27 +120,27 @@ ul {
 .item img {
     width: 100%;
     transition: 1.5ms;
-    overflow: hidden;
-    position: relative;
-    height: 30%;
+
 }
 
 .item:hover img {
-    transform: scale(1.06);
-   
-}
+    transform: scale(1.01);
+  }
 .item:hover h3{
-    color: #bb3b3b;
- }
+     color: #bb3b3b;
+  }
 
 .item h3 {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+button{
+    background: none;
+    border: none;
+}
 
 .item p {
     width: 100%;
-    color: #686868;
 }
 
 .test {
@@ -238,7 +152,8 @@ ul {
 /* footer */
 footer {
     background-color: #353330;
-    height: 50vh; 
+    height: 50vh;
+
 }
 
 footer .container {
