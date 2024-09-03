@@ -47,7 +47,8 @@ h6 {
 }
 
 .navbar {
-    width: 80%;
+    width: 100%;
+    z-index: 1;
     position: fixed;
 }
 
@@ -57,7 +58,26 @@ h6 {
 
 .links li {
     float: left;
+    position: relative;
+    margin-right:15px ;
+    height: 80%;
 }
+
+.links li::after {
+    content: ' ';
+    height: 5px;
+    width: 0%;
+    background-color: #c1ab84 ;
+    left: 10px;
+    bottom: 0px;
+    right: 0;
+    position: absolute;
+    transition: 0.5s;
+ }
+.links li:hover:after {
+    width: 85%;
+
+ }
 
 .links li a.active {
     color: rgb(255, 255, 255);
@@ -65,9 +85,12 @@ h6 {
 
 .links li a {
     color: white;
+    font-size: large;
 }
 
-
+.header .container {
+    overflow: hidden;
+}
 
 h1 {
     font-size: 76px;
@@ -75,7 +98,8 @@ h1 {
 
 .header-content {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 150px;
+
 }
 
 .header a {
@@ -109,7 +133,7 @@ ul {
 }
 
 .about {
-    padding: 80 0 ;
+    padding: 80 0;
 }
 
 .img-about {
@@ -157,13 +181,13 @@ ul {
     margin-bottom: 20px;
     font-size: 20px;
     transition: 0.5s;
-    border:#c1ab84 solid 1px ;
- }
+    border: #c1ab84 solid 1px;
+}
 
 .info-about ul li i:hover {
     color: #c1ab84;
     background: none;
-    transform: rotate(365deg) ;
+    transform: rotate(365deg);
 }
 
 .menu {
@@ -213,11 +237,12 @@ ul {
 
 .item:hover img {
     transform: scale(1.06);
-   
+
 }
-.item:hover h3{
+
+.item:hover h3 {
     color: #bb3b3b;
- }
+}
 
 .item h3 {
     margin-top: 20px;
@@ -238,7 +263,7 @@ ul {
 /* footer */
 footer {
     background-color: #353330;
-    height: 50vh; 
+    height: 50vh;
 }
 
 footer .container {

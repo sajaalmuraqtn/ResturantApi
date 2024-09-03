@@ -33,9 +33,7 @@ h6 {
     background-image: url(../image/headerBackground.jpg);
     height: 30vh;
     background-size: cover;
-    color: white;
-    overflow: hidden;
-
+    color: white; 
 }
 
 .logo {
@@ -46,11 +44,7 @@ h6 {
 .logo img {
     width: 150px;
 }
-
-.navbar {
-    width: 80%;
-    position: fixed;
-}
+ 
 
 .links {
     float: right;
